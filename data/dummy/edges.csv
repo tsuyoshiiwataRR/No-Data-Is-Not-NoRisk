@@ -1,0 +1,56 @@
+edge_id,company_a,company_b,reltype_id,relationship_type
+E001,H001,A101,5,Current Subsidiary
+E002,A101,A102,5,Current Subsidiary
+E003,A101,A103,1,Current Investment
+E004,A101,A104,5,Current Subsidiary
+E005,A101,A105,5,Current Subsidiary
+E006,H001,A106,5,Current Subsidiary
+E007,A101,A107,1,Current Investment
+E008,H002,A107,1,Current Investment
+E009,H002,V201,5,Current Subsidiary
+E010,V201,V202,6,Prior Subsidiary
+E011,V201,V203,5,Current Subsidiary
+E012,V201,V204,2,Prior Investment
+E013,H002,V205,1,Current Investment
+E014,H002,V206,5,Current Subsidiary
+E015,V205,V207,1,Current Investment
+E016,H003,V207,0,Other
+E017,H003,N301,5,Current Subsidiary
+E018,N301,N302,5,Current Subsidiary
+E019,N301,N303,6,Prior Subsidiary
+E020,N301,N304,5,Current Subsidiary
+E021,N301,N305,7,Merged Entity
+E022,H003,N306,5,Current Subsidiary
+E023,N301,N307,17,Current Fund Sponsor
+E024,A106,N307,34,Current Fund Investment Advisor
+E025,H004,L401,5,Current Subsidiary
+E026,L401,L402,5,Current Subsidiary
+E027,L401,L403,1,Current Investment
+E028,L401,L404,5,Current Subsidiary
+E029,L401,L405,5,Current Subsidiary
+E030,H004,L406,5,Current Subsidiary
+E031,L406,L407,6,Prior Subsidiary
+E032,L406,L408,1,Current Investment
+E033,L401,L409,2,Prior Investment
+E034,H004,L410,1,Current Investment
+E035,L410,L411,7,Merged Entity
+E036,L410,L412,17,Current Fund Sponsor
+E037,L401,L413,34,Current Fund Investment Advisor
+E038,L413,L414,0,Other
+E039,H005,R501,5,Current Subsidiary
+E040,R501,R502,5,Current Subsidiary
+E041,R501,R503,1,Current Investment
+E042,R501,R504,5,Current Subsidiary
+E043,R501,R505,5,Current Subsidiary
+E044,H005,R506,5,Current Subsidiary
+E045,R507,R501,1,Current Investment
+E046,R507,R508,6,Prior Subsidiary
+E047,R507,R509,2,Prior Investment
+E048,R501,R510,7,Merged Entity
+E049,H005,R511,5,Current Subsidiary
+E050,R511,R512,17,Current Fund Sponsor
+E051,R501,R513,34,Current Fund Investment Advisor
+E052,R513,R514,0,Other
+E053,A106,L406,1,Current Investment
+E054,L414,R507,34,Current Fund Investment Advisor
+E055,H002,R501,1,Current Investment

@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "no-data-is-not-no-risk"
+version = "0.0.0"
+description = "Company-risk prediction on corporate hierarchy graphs"
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+authors = []
+dependencies = [
+    "networkx>=3.2,<4",
+    "plotly>=6,<7",
+    "torch>=2.6,<3",
+    "torch-geometric>=2.7,<3",
+]
+
+[project.scripts]
+risk-predict = "risk_propagation.prediction:main"
+risk-train = "risk_propagation.training:main"
+risk-visualize = "risk_propagation.visualization:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+
+[tool.ruff.format]
+quote-style = "single"

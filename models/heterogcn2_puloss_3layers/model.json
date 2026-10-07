@@ -1,0 +1,40 @@
+{
+  "format_version": 1,
+  "architecture": "HeteroGCN2",
+  "research_experiment": "heterogcn2_puloss_3layers",
+  "node_features": {
+    "columns": [
+      "observed_risk",
+      "company_type=Other",
+      "company_type=research_type_1",
+      "company_type=research_type_2",
+      "company_type=research_type_3",
+      "company_type=research_type_4",
+      "company_type=research_type_5"
+    ],
+    "company_types": [
+      "Other",
+      "research_type_1",
+      "research_type_2",
+      "research_type_3",
+      "research_type_4",
+      "research_type_5"
+    ]
+  },
+  "edge_type_ids": [0, 1, 2, 5, 6, 7, 17, 34],
+  "hyperparameters": {
+    "loss": "pu",
+    "nb_layers": 3,
+    "hidden_size": 64,
+    "learning_rate": 0.001,
+    "batch_size": 64,
+    "epochs": 2,
+    "eval_every": 1000,
+    "patience": 4
+  },
+  "training_data": {
+    "label_year": 2024,
+    "feature_year": 2024
+  },
+  "sha256": "5814897b6be731bdf59ace6f493075521f04d059e566bc748fbb3afba9335f71"
+}
